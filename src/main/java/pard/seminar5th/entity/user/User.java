@@ -69,11 +69,11 @@ public class User {
     }
 
     public void update(String name, Integer age) {
-        if (name != null || !name.isEmpty() ) {
+        if (name != null || !name.isEmpty()) {
             this.name = name;
         }
 
-        if (age != null || !age.equals(0) ) {
+        if (age != null || !age.equals(0)) {
             this.age = age;
         }
     }

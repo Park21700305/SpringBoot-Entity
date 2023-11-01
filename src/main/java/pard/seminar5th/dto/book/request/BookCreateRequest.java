@@ -1,7 +1,6 @@
 package pard.seminar5th.dto.book.request;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import pard.seminar5th.entity.book.Book;

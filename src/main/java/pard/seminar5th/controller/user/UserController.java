@@ -20,7 +20,7 @@ public class UserController {
     private final UserService userService;
 
     @PostMapping("/user")
-    public ResponseEntity<User> createUser(@RequestBody UserCreateRequest request){
+    public ResponseEntity<User> createUser(@RequestBody UserCreateRequest request) {
         User createdUser = userService.save(request);
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(createdUser);
@@ -45,10 +45,6 @@ public class UserController {
                 .body(new UserResponse(user));
     }
 
-
-
-
-
     @PatchMapping("/user/{userId}")
     public ResponseEntity<UserResponse> updateUser(@PathVariable Long userId, @RequestBody UserUpdateRequest request) {
         User updatedUser = userService.updateUser(userId, request);
@@ -56,7 +52,6 @@ public class UserController {
         return ResponseEntity.ok()
                 .body(new UserResponse(updatedUser));
     }
-
 
     @DeleteMapping("/user/{id}")
     public ResponseEntity<Void> deleteUser(@PathVariable Long id) {

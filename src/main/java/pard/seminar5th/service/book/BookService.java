@@ -1,6 +1,5 @@
 package pard.seminar5th.service.book;
 
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import pard.seminar5th.dto.book.request.BookCreateRequest;

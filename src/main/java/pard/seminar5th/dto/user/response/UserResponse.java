@@ -1,11 +1,8 @@
 package pard.seminar5th.dto.user.response;
 
-import lombok.AllArgsConstructor;
-import pard.seminar5th.dto.book.response.BookResponse;
+import lombok.Data;
 import pard.seminar5th.dto.book.response.BookSimpleResponse;
 import pard.seminar5th.entity.user.User;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.List;
 import java.util.stream.Collectors;

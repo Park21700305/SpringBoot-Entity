@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import pard.seminar5th.dto.user.response.UserResponse;
 import pard.seminar5th.entity.book.Book;
-import pard.seminar5th.entity.user.User;
 
 @NoArgsConstructor
 @Getter
